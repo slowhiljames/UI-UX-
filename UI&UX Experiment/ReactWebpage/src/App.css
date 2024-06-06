@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+/* Custom CSS for navbar background color */
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.App {
+  background-color:#E6F7FF;
+}
+
+::-webkit-scrollbar{
+  width: 100%;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track{
+  background: #e0e0e0;
+}
+
+/* handal */
+::-webkit-scrollbar-thumb{
+  background: #888;
+}
+
+/* Handle on Hover */
+::-webkit-scrollbar-track:hover{
+  background: #555;
+}
+.bg-custom-color {
+    background-color:#ebf801;
+  }
+
+  #navbar{
+    width: 100%;
+    border: none;
+  }
+
+  .navbar {
+    width: 100%;
+  }
+
+  .borderse{
+    border: 2px solid transparent;
+}
+.borderse:hover{
+    border: 2px solid white;
+}
+
+  .footer{
+    background-color:#222f3d;
+  }
+  .footers{
+    background-color: #37475a;
+  }
+  /* slider */
+  .slider {
+    background-color:#FFBB00;
+  }
+
+  /* home */
+  .bg-custom-colors {
+    background-color:#ffffff;
+  }
+  .text-decoration-none {
+    text-decoration: none;
+  }
+  
+
+  .lorn{
+   
+    color: #F72798;
+    
+  }
+
+  .oranges{
+    color: orange;
+  }
+
+  .video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+  }
+  
+
+  /* footer */
+ 
+  /* page services */
+  .mach{
+    text-align: center;
+    color: black;
+}
+
+.D1, .D2, .D3 {
+    background-color: #ffffff;
+    color: black;
+}
+
+/* About */
+.form-floating.filled label {
+  opacity: 0;
+  
+}
+
+
+#ab-1{
+  color: white;
+  text-align: center;
+}
+.about-us{ 
+  display: flex;
+  
+
+  background-color: #012b3a;
+    
+}
+.has-text-align-center{
+  text-align: center;
+
+}
+
+.text{
+
+ color: rgb(240, 229, 229);
+   
+}
+.text h2{
+  font-size: 90px;
+  font-weight: 600;
+
+}
+.text h5{
+  font-weight: 500;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.main{
+background-color: #179178;
+padding: 1rem;
+}
+
+/* login */
+
+
+/*------------ Login container ------------*/
+.box-area{
+  width: 930px;
+}
+/*------------ Right box ------------*/
+.right-box{
+  padding: 40px 30px 40px 40px;
+}
+/*------------ Custom Placeholder ------------*/
+::placeholder{
+  font-size: 16px;
+}
+.rounded-4{
+  border-radius: 20px;
+}
+.rounded-5{
+  border-radius: 30px;
+}
+/*------------ For small screens------------*/
+@media only screen and (max-width: 768px){
+   .box-area{
+      margin: 0 10px;
+   }
+   .left-box{
+      height: 100px;
+      overflow: hidden;
+   }
+   .right-box{
+      padding: 20px;
+   }
+}
+
+/* hover effect Home  */
+
+.cards {
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  text-weight:700;
+}
+
+.cards:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  text-shadow: black;
+}
+
+.col{
+  margin-bottom: 15px;
+}
+
+
+
+/* *****************************************  /DashBord/  ******************************************* */
+/* sidenav */
+
+/* Styles for the Menu Icon */
+.menu-icon {
+    display: none; /* Hide menu icon by default on larger screens */
+}
+
+/* Styles for the Sidebar */
+.sidebar {
+    width: 250px; /* Set initial width for the sidebar */
+    height: 100vh;
+    transition: transform 0.3s ease;
+    transform: translateX(-100%);
+}
+
+.sidebar.open {
+    transform: translateX(0);
+}
+
+/* Media query for mobile screens */
+@media (max-width: 767px) {
+    .menu-icon {
+        display: block; /* Show menu icon on smaller screens */
+        /* Add styles for your menu icon, like the hamburger icon */
+    }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000; /* Ensure sidebar is above other content */
+    }
+}
+
+@media (max-width:1008px){
+  .lap{
+    display: none;
+  }
+}
+

@@ -1,0 +1,38 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    /* background-color: rgb(18, 13, 5); */
+}
+
+h2{
+    align-items: center;
+}
+#result{
+    margin:1px;
+    width: 210px;
+    height: 50px;
+    background-color: white ;
+}
+
+input[type="button"] {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+}
+div.container {
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 4px solid black;
+}

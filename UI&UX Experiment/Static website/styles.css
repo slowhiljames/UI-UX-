@@ -1,0 +1,17 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Center the container horizontally */
+    align-items: center; /* Center the container vertically */
+    height: 100%; /* Take the full height of the viewport */
+}
+
+.container.row {
+    border-radius: 8px;
+    text-align: center; /* Center the content horizontally */
+}

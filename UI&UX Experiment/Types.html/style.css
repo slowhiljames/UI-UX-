@@ -1,0 +1,91 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+
+body.html{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.external{
+    width: 200px;
+    height: 200px;
+}
+
+/* #inline{
+    border: 4px solid;
+} */
+
+
+/* .container{ 
+    align-items: center;
+    height: 1000px;
+    width: 1000px;
+    border: 40x solid black;
+}  */
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    /* align-items: center; Center vertically */
+/* }  */
+
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    border: 4px solid black; /* Corrected border property */
+/* }  */
+
+/* .external {
+    width: 200px;
+    height: 200px;
+    /* background-color: white; Added background for visibility */
+/* } */ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: antiquewhite;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%; /* Width of the container box */
+    max-width: 500px; /* Maximum width of the container box */
+    height: auto; /* Automatically adjust height based on content */
+    padding: 20px; /* Padding inside the container */
+    border: 4px solid black; /* Border around the container */
+    background-color: white; /* Background color of the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: add a shadow for better visibility */
+}
+
+.external {
+    width: 100%; /* Ensure content takes full width of the container */
+    text-align: center; /*Optional: center text inside the container */
+}
